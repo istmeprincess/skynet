@@ -1,0 +1,42 @@
+{
+  "name": "skynet",
+  "description": "Telegram's Beta SkynetBot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "group-managing"
+  ],
+  "repository": "https://github.com/istmeprincess/skynet",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Your bot token, that can be created using @BotFather"
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Owner/Your userid as a string",
+      "value": ""
+    },
+    "OWNER_USERNAME": {
+      "description": "Enter owner's/ your's username",
+      "value": "i_am_an_princes"
+    },
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks in env mode messages",
+      "value": "ANYTHING"
+    },
+    "URL": {
+      "description": "The heroku app url similar to https://<appname>.herokuapp.com/",
+      "value": ""
+    },
+    "MESSAGE_DUMP": {
+      "description": "optional: a chat where your replied messages are stored, to stop people spamming",
+      "value": "-100"
+    },
+    "SUDO_USERS": {
+      "description": "id of sudo users",
+      "value": ""
+    },
