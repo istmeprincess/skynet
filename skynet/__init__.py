@@ -81,7 +81,6 @@ if ENV:
     WORKERS = int(os.environ.get('WORKERS', 8))
     BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
-    LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', "")
     WALL_API = os.environ.get('WALL_API', "")
     MOE_API = os.environ.get('MOE_API', "")
     AI_API_KEY = os.environ.get('AI_API_KEY', "")
@@ -138,7 +137,6 @@ else:
     WORKERS = Config.WORKERS
     BAN_STICKER = Config.BAN_STICKER
     ALLOW_EXCL = Config.ALLOW_EXCL
-    LASTFM_API_KEY = Config.LASTFM_API_KEY
     WALL_API = Config.WALL_API
     MOE_API = Config.MOE_API
     AI_API_KEY = Config.AI_API_KEY
