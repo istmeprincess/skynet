@@ -58,7 +58,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("tg_bot.modules." + module_name)
+    imported_module = importlib.import_module("skynet.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -151,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 ),
             )
     else:
-        update.effective_message.reply_text("Yo, thankyou for summoning me - skynet..")
+        update.effective_message.reply_text("Yo, thankyou for summoning me, any queries contact us: @SkynetTGSupport - skynet..")
 
 
 # for test purposes
