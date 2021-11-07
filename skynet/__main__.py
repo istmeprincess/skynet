@@ -23,7 +23,7 @@ Hi {}, my name is {}!
 You can find the list of available commands with /help.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/deacd90d2517f1bc023ab.jpg"
+BOT_IMAGE = "https://telegra.ph/file/a904d63edc436f50cd4e8.mp4"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
