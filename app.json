@@ -25,7 +25,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations.",
          "required": false,
-         "value": ""
+         "value": "https://commerce.coinbase.com/checkout/16ac734f-a70c-436e-9dfc-c7c597995b71"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables.",
@@ -37,7 +37,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "I_AM_AN_PRINCES"
+         "value": "FaucetMaker"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
@@ -68,7 +68,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://skynetbot.herokuapp.com/"
       },
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks.",
