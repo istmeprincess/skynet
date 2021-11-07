@@ -42,7 +42,7 @@ If you have any questions on how to use me, head over to @SkynetTGSupport
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Hi, thankyou for using {0}, you can donate any amount you want, it helps in improving our vpns, dns, and bot's better performance.""".format(dispatcher.bot.first_name)
+DONATE_STRING = """Hi, thankyou for using {0}, you can donate any amount you want, it helps in improving our vpns, dns, and bot's better performance. Donate us via crypto: [here](https://commerce.coinbase.com/checkout/16ac734f-a70c-436e-9dfc-c7c597995b71) - SkynetDevTeam""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
