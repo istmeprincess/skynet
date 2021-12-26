@@ -79,6 +79,10 @@
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "value": "1303354942 1180249738"
       }
+      "WALL_API": {
+         "description": " wallepaper api",
+         "value": ""
+      }
    },
    "keywords": [
       "telegram",
